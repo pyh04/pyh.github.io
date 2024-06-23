@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>品种分类</title>
+		<style>
+			* {
+			  margin: 0;
+			  padding: 0;
+			}
+			body { 
+				font-family: Arial, sans-serif; 
+			}
+			p{
+				font-family: 华文楷体;
+			}
+			#head,#footer{
+				height: 100px;
+				border: 5px ;
+				justify-content: space-between;
+			}
+			.layout{
+				max-width: 100%;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 10px 20px;
+			}
+			.logo {
+				width:150px;
+				float:left;
+				margin-top:20px;
+				padding-left:20px;
+			}
+			.main {
+				background:#0392ff;
+				margin-top: 30px;
+			}
+			.main1:after {
+				content:"";
+				display:block;
+				clear:both;
+			}
+			.main2 {
+				padding:20px 10px;
+				font-size:18px; 
+				color:#fff;
+				margin-left: 550px;
+			}
+			.container {
+				display: grid;
+			    grid-template-columns: repeat(4, 1fr); 
+			    gap: 10px; 
+			}
+			.column {
+				background-color: #f2f2f2;
+			    padding: 10px;
+			    height: 900px; 
+			}
+			.column img{
+				width: 200px;
+				height: 230px;
+				margin-left: 30px;
+			}
+			.image-container {
+			    position: relative;
+			    display: inline-block;
+			}
+			.image-container .overlay {
+			    position: absolute;
+			    bottom: 1%;
+			    left: 13%;
+			    width: 87%;
+				height:0%;
+			    background: rgba(0, 0, 0, 0.5); 
+			    color: white;
+			    text-align: center;
+			    padding: 50% 0;
+			    opacity: 0;
+			    transition: opacity 0.3s ease-in-out;
+			}
+			.image-container:hover .overlay {
+			    opacity: 1;
+			}
+			footer {
+				margin-top:142px;
+				clear:both;
+				color:#fff;
+				padding:10px 0;
+				text-align:center;
+				background:#007bff;
+				margin-top: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="head"class="layout" >
+			<div class="logo">
+			    <img src="img/loge.jpeg" width="200" " title="来源于网络" style="vertical-align: middle; margin-right: 10px;">
+			</div>
+			<h1 style="display: inline-block; margin-top: 20px;margin-right: 740px;" >江西景德镇陶瓷</h1>
+		</div>
+		<div class="main">
+		  <div class="main1">
+		    <h1 class="main2">品种分类</h1>
+		  </div>
+		</div>
+		<div class="container">
+		        <div class="column">
+					<div class="image-container">
+					        <img src="img/玲珑瓷.png" alt="描述图片内容的文本" title="来源于网络">
+					        <div class="overlay">
+					            <p>玲珑瓷</p>
+					        </div>
+					</div>
+					<p>景德镇青花玲珑瓷是明永乐年间在镂空工艺的基础创造和发展起来的，已有500多种年间的历史。瓷工用刀片在坯胎上镂成点点米粒状，被人们称为“米通”，又叫玲珑眼，再填入玲珑釉料，并配上青花装饰，入窑烧制而成。它显得灵巧、明彻、透剔，特别高雅秀洁。</p>
+					<br /><br /><br /><br />
+					<div class="image-container">
+							<img src="img/粉彩瓷.png" alt="描述图片内容的文本" title="来源于网络">
+							<div class="overlay">
+								<p>粉彩瓷</p>
+							</div>
+					</div>
+					<p>粉彩亦称软彩，是瓷器的釉上装饰，自清康熙晚期开始，到雍正、乾隆年代，日臻完善。其制法是：先在白胎瓷器上勾出图案轮廓，再堆填色料，在摄氏七百多度的温度下烧煅而成，颜色柔和，画工细腻工整，既有国画风味，又有浮雕感，画面充满着浓郁的民族特色。有以中国历史故事和神话为主的人物、有秀丽多彩的山水、有栩栩如生鸟翎毛，有工整对称的几何图案。</p>
+				</div>
+		        <div class="column">
+					<div class="image-container">
+					        <img src="img/影青瓷.jpg" alt="描述图片内容的文本" title="来源于网络">
+					        <div class="overlay">
+					            <p>影青瓷</p>
+					        </div>
+					</div>
+					<p>在同一件影青釉瓷器上，既绘有幽静雅致的“青花”，又刻有清淡秀丽的纹饰，称青花影青瓷。青花影青瓷是景德镇于1983年创出的新品种，该釉色酷似白玉，花纹晶莹剔透，釉层下的暗花与青花融为一体，使器物显得更加秀丽、高雅。</p>
+					<br /><br /><br /><br />
+					<div class="image-container">
+							<img src="img/薄胎瓷.png" alt="描述图片内容的文本" title="来源于网络">
+							<div class="overlay">
+								<p>薄胎瓷</p>
+							</div>
+					</div>
+					<p>薄胎瓷亦称“脱胎瓷”、“蛋壳瓷”，是景德镇著名传统瓷器品种中久负盛名的特种工艺产品之一，特点是瓷胎薄如蛋壳、透光，胎质用纯釉制成。制作从配料、拉坯、利坯（修坯）、上釉到绘画、烧制，须经数十道工序，全部采用手工，分三次烧成。人称之为“薄似蝉翼，轻若浮云”。它轻巧、秀丽，做工精致，透光性好，是中国景德镇传统艺术名瓷之一。</p>
+				</div>
+		        <div class="column"> 
+						<div class="image-container">
+						        <img src="img/雕塑瓷.png" alt="描述图片内容的文本" title="来源于网络">
+						        <div class="overlay">
+						            <p>雕塑瓷</p>
+						        </div>
+						</div>
+						<p>景德镇瓷雕制作可以追溯到一千四百多年前，远在隋代就有“狮”、“象”大兽的制作。当代的景德镇，瓷雕工艺精湛，工艺种类齐全，有园雕、捏雕、镂雕、浮雕等；艺术表现力强，有的庄重浑厚，有的典雅清新，有的富丽堂煌，鲜艳夺目。</p>
+						<br /><br /><br /><br />
+						<div class="image-container">
+								<img src="img/青花瓷.png" alt="描述图片内容的文本" title="来源于网络">
+								<div class="overlay">
+									<p>青花瓷</p>
+								</div>
+						</div>
+						<p>景德镇青花瓷，被人们称为“人间瑰宝”。始创于元代，到明、清两代为高峰。它用氧化钴料在坯胎上描绘纹样，施釉后高温一次烧成。它蓝白相映，怡然成趣，晶莹明快，美观隽久。</p>
+					</div>
+		        <div class="column"> 
+						<div class="image-container">
+						        <img src="img/颜色釉瓷.webp" alt="描述图片内容的文本" title="来源于网络">
+						        <div class="overlay">
+						            <p>颜色釉瓷</p>
+						        </div>
+						</div>
+						<p>色釉瓷又称颜色釉瓷，是依靠釉水色彩的变化来装饰瓷器的。通常在釉料之中调整各种微量元素的含量，就能达到改变釉色的目的。在釉料里加上某种氧化金属，经过焙烧以后，就会显现出某种固有的色泽，影响色釉成色的主要是起着色剂作用的金属氧化物。</p>
+						<br /><br /><br /><br />
+						<div class="image-container">
+								<img src="img/古彩瓷.webp" alt="描述图片内容的文本" title="来源于网络">
+								<div class="overlay">
+									<p>古彩瓷</p>
+								</div>
+						</div>
+						<p>古彩：又名硬彩，为别于清代粉彩，一般称明代五彩和清代康熙五彩为古彩。五彩，是以红、黄、绿、蓝、紫等各种带玻璃质的彩料，按图案纹饰需要施于釉上，在瓷胎上用生料、钒红勾线，用单线平涂的方法， 再在“彩炉”（在800-900 度之间烧成）二次焙烧而成的一种古彩。由于它红绿分明，层次较少，彩色鲜明透彻，故称硬彩。</p>
+					</div>
+		</div>
+		<footer>
+			<p>版权所有 &copy; 潘宇航 20220000615</p>
+		</footer>
+	</body>
+</html>

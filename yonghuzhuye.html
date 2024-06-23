@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户主页</title>
+		<style>
+			* {
+			  margin: 0;
+			  padding: 0;
+			}
+			body { 
+				font-family: Arial, sans-serif; 
+			}
+			#head,#footer{
+				height: 100px;
+				border: 5px ;
+				justify-content: space-between;
+			}
+			.layout{
+				max-width: 100%;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 10px 20px;
+			}
+			.logo {
+				width:150px;
+				float:left;
+				margin-top:20px;
+				padding-left:20px;
+			}
+			h1,h3,p {
+				padding:0;
+				margin:0;
+				list-style:none;
+			}
+			a {
+				text-decoration:none;
+				color:#000;
+			}
+			body {
+				background:#fff;
+				font-size:16px;
+				margin:0 auto;
+				line-height:25px;
+			}
+			.main {
+				background:#0392ff;
+				margin-top: 30px;
+			}
+			.main1:after {
+				content:"";
+				display:block;
+				clear:both;
+			}
+			.main2 {
+				padding:20px 10px;
+				font-size:18px; 
+				color:#fff;
+				margin-left: 550px;
+			}
+			.main3 {
+				position:relative;
+				background-repeat:no-repeat;
+				background-position:center center;
+				background-size:cover;
+				height:500px;
+			}
+			.main3 .text {
+				position:absolute;
+				width:600px;
+				background-color:rgba(0,0,0,0.5);
+				color:#fff;
+				padding:20px 50px;
+				top:100px;
+				left:50%;
+				margin-left:-350px;
+				text-align:center;
+				font-size:20px;
+				font-weight:300;
+			}
+			.main4 {
+				background:#4ec7ff;
+				padding:10px 20px;
+				font-size:18px;
+				display:inline-block;
+				color:#fff;
+				margin-top:30px
+			}
+			.profile {
+				width: 20%;
+			    margin: 20px auto;
+			    background: white;
+			    padding: 20px;
+			    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			}
+			.profile img {
+				width: 100px;
+			    height: 100px;
+			    border-radius: 50%;
+			    margin-left: 70px;
+			    
+			}
+			.profile h1 {
+			    margin-top: 40px;
+			    color: #333;
+				margin-left: 60px;
+			}
+			.profile p {
+			    margin: 0px 0;
+			    color: #666;
+			}
+			footer {
+				margin-top:142px;
+				clear:both;
+				color:#fff;
+				padding:10px 0;
+				text-align:center;
+				background:#007bff;
+				margin-top: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="head"class="layout" >
+			<div class="logo">
+				<img src="img/loge.jpeg" width="200" " title="来源于网络" style="vertical-align: middle; margin-right: 10px;">
+			</div>
+			<h1 style="display: inline-block; margin-top: 20px;margin-right: 740px;" >江西景德镇陶瓷</h1>
+		</div>
+		<div class="main">
+			<div class="main1">
+				<h1 class="main2">用户主页</h1>
+			</div>
+		</div>
+		<div class="profile">
+		        <img src="img/头像.jpg" alt="用户头像">
+		        <h1>个人资料</h1><br /><br />
+		        <p>姓名：潘宇航</p><br />
+		        <p>学院：电气与信息工程学院</p><br />
+		        <p>班级：22级计算机科学与技术四班</p><br />
+				<p>联系方式：15479266516</p><br />
+				<p>邮箱：2569558497@qq.com</p>
+		    </div>
+			<footer>
+				<p>版权所有 &copy; 潘宇航 20220000615</p>
+			</footer>
+	</body>
+</html>
